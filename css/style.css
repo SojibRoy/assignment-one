@@ -109,7 +109,10 @@ body {
 
 #category ul li:hover {
   outline: 2px solid coral;
-  color: coral;
+}
+
+#category ul li .btn a:hover {
+  color: orangered;
 }
 
 #our-plan {
@@ -161,6 +164,29 @@ body {
 #our-plan .plan-3 {
   background-color: #f8f9d7;
   padding: 50px 30px;
+}
+
+#contact {
+  text-align: center;
+  margin: 50px;
+}
+
+#contact h2 {
+  font-size: 60px;
+  padding: 20px;
+}
+
+#contact p {
+  margin-bottom: 30px;
+}
+
+#contact .form {
+  background-color: #f8f9d7;
+  padding: 60px;
+  margin: 0 200px;
+}
+
+#contact .form input {
 }
 
 footer {
