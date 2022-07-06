@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#showcase {
+  background-image: url("../images/donation15.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  color: white;
+  text-align: center;
+}
+
+#showcase .text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase .text h1 {
+  font-size: 80px;
+  padding: 20px;
+}
+
+#showcase .text p {
+  padding: 0px 40px;
+  margin: 0 550px;
+}
+
+#showcase .text .btn {
+  display: inline-block;
+  background: orangered;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+#category {
+  text-align: center;
+  margin: 50px;
+}
+
+#category h2 {
+  font-size: 60px;
+  padding: 20px;
+}
+
+#category p {
+  margin: 0px 500px;
+  padding-bottom: 20px;
+}
+
+#category ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#category ul li {
+  background: whitesmoke;
+  padding: 30px 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#category ul li a {
+  color: gray;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+#category input {
+  outline: none;
+  border: none;
+  text-align: center;
+  padding: 10px 200px;
+  margin: 10px 0px;
+  border-bottom: 3px solid whitesmoke;
+}
+
+#category .btn {
+  display: flex;
+  justify-content: center;
+}
+
+#category .btn a {
+  background: orangered;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+#category ul li:hover {
+  outline: 2px solid coral;
+  color: coral;
+}
+
+#our-plan {
+  margin: 50px;
+}
+
+#our-plan h2 {
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+}
+
+#our-plan .text {
+  text-align: center;
+  margin: 0 500px;
+  padding-bottom: 50px;
+}
+
+#our-plan ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#our-plan ul li {
+  margin: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+#our-plan ul li img {
+  padding: 20px 0px;
+}
+
+#our-plan ul li h3 {
+  padding-bottom: 20px;
+}
+
+#our-plan .plan-1 {
+  background-color: #c4d7e0;
+  padding: 50px 30px;
+}
+
+#our-plan .plan-2 {
+  background-color: #ffc4c4;
+  padding: 50px 30px;
+}
+
+#our-plan .plan-3 {
+  background-color: #f8f9d7;
+  padding: 50px 30px;
+}
+
+footer {
+  text-align: center;
+  background: black;
+}
+
+footer h3 {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  color: orangered;
+  padding: 20px 0px 10px 0px;
+}
+
+footer p {
+  color: white;
+  padding-bottom: 20px;
+}
