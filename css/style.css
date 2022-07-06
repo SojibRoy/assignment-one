@@ -34,7 +34,7 @@ body {
 
 #showcase .text p {
   padding: 0px 40px;
-  margin: 0 550px;
+  margin: 0 20px;
 }
 
 #showcase .text .btn {
@@ -59,7 +59,7 @@ body {
 }
 
 #category p {
-  margin: 0px 500px;
+  margin: 0px 20px;
   padding-bottom: 20px;
 }
 
@@ -124,7 +124,7 @@ body {
 
 #our-plan .text {
   text-align: center;
-  margin: 0 500px;
+  margin: 0 20px;
   padding-bottom: 50px;
 }
 
