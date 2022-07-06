@@ -18,7 +18,7 @@ body {
   text-align: center;
 }
 
-#showcase .text {
+#showcase .showcase-heading {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -27,17 +27,17 @@ body {
   align-items: center;
 }
 
-#showcase .text h1 {
+#showcase .showcase-heading h1 {
   font-size: 80px;
   padding: 20px;
 }
 
-#showcase .text p {
+#showcase .showcase-heading p {
   padding: 0px 40px;
   margin: 0 20px;
 }
 
-#showcase .text .btn {
+#showcase .showcase-heading .btn {
   display: inline-block;
   background: orangered;
   text-decoration: none;
@@ -111,7 +111,7 @@ body {
   outline: 2px solid coral;
 }
 
-#category ul li .btn a:hover {
+#category ul li a:hover {
   color: orangered;
 }
 
@@ -180,13 +180,27 @@ body {
   margin-bottom: 30px;
 }
 
-#contact .form {
+#contact .subscribe {
   background-color: #f8f9d7;
-  padding: 60px;
-  margin: 0 200px;
+  padding: 70px;
+  margin: 0 300px;
 }
 
-#contact .form input {
+#contact .subscribe input {
+  border: none;
+  padding: 10px 30px;
+}
+
+#contact .subscribe .mail {
+  background-color: #cccc;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#contact .subscribe .btn {
+  margin-left: -10px;
+  color: white;
+  background-color: orangered;
+  border-radius: 0px 5px 5px 0px;
 }
 
 footer {
